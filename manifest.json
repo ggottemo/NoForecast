@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": ".NET Core API Notifier",
+  "version": "1.0",
+  "description": "Detects .NET Core API launches and notifies the user.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "notifications"
+  ],
+  
+  "action": {
+    "default_popup": "toast.html"
+  }
+}
